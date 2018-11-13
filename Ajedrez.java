@@ -39,19 +39,41 @@ public class AJEDREZ {
       String DB="DB";
       String TN="TN";
       String TB="TB";
+      String AN="AN";
+      String AB="AB";
+      String CN="CN";
+      String CB="CB";
+      String PN="PN";
+      String PB="PB";
+      
       if(!ficha.equalsIgnoreCase(RN)){
           if(!ficha.equalsIgnoreCase(RB)){
               if(!ficha.equalsIgnoreCase(DN)){
                   if(!ficha.equalsIgnoreCase(DB)){
                       if(!ficha.equalsIgnoreCase(TN)){
                           if(!ficha.equalsIgnoreCase(TB)){
-                              validezFicha=false;
-                          }
-                      }
-                  }
-              }
-          }
-          
+                              if(!ficha.equalsIgnoreCase(AN)){
+                                  if(!ficha.equalsIgnoreCase(AB)){
+                                      if(!ficha.equalsIgnoreCase(CN)){
+                                          if(!ficha.equalsIgnoreCase(CB)){
+                                              if(!ficha.equalsIgnoreCase(PN)){
+                                                  if(!ficha.equalsIgnoreCase(PB)){
+                                                      validezFicha=false;
+                                                  }
+                                              }
+                                          }
+                                      }
+                                      
+                                  }
+                                      
+                                  }
+                              
+      }
+      }
+      }
+      }
+      }
+      
       }
       return validezFicha;
     }
